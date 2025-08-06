@@ -157,21 +157,3 @@ def process_addresses(address_list: List[str], api_key: str, output_file: str = 
                     "详细地址": address
                 })
 
-# if __name__ == "__main__":
-#     # 设置API密钥
-#     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-#     # 地址列表
-#     addresses = [
-#         "浦东新区泥城镇云端路凌波苑",
-#         "长沙开福区七彩盒子",
-#         "江苏省南京市,江宁区淳化,戴马墅",
-#         "端州区中源名都",
-#         "南方科技大学医院附近",
-#         "北京市西城区牛街路口东华金座2单元802",
-#         "武汉市硚口区广电兰亭荣荟",
-#         "惠州市惠城区东平颐景花园",
-#         "朝阳区弘善家园",
-#         "鼓楼区西二环中路东南医药大楼"
-#     ]
-#     # 处理地址
-#     process_addresses(addresses, OPENAI_API_KEY, "processed_addresses.csv")
